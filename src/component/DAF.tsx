@@ -279,7 +279,7 @@ export default function DelayedAuditoryFeedback() {
     }
   };
 
-  // --- 추가: isActive 상태 변경에 따른 애니메이션 프레임 관리 ---
+  // --- 추가 : isActive 상태 변경에 따른 애니메이션 프레임 관리 ---
   useEffect(() => {
     // Define the loop function inside the effect
     const loop = () => {
@@ -632,6 +632,7 @@ export default function DelayedAuditoryFeedback() {
             <p className="mb-1 font-bold">사용 방법</p>
             <ol className="list-decimal list-inside space-y-1">
               <li>헤드폰을 연결하세요 (스피커 사용 시 하울링 발생 가능)</li>
+              <li>차음이 잘 되는 헤드폰(마이크 분리형 권장)을 사용하고, 헤드폰 볼륨은 최대로 설정하세요.</li>
               <li>'시작' 버튼을 클릭하고 마이크 접근을 허용하세요</li>
               <li>지연 시간과 볼륨을 조절하세요 (슬라이더 또는 직접 입력)</li>
               <li>말을 하면 설정된 지연 시간 후 자신의 목소리가 들립니다</li>
